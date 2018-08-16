@@ -1,5 +1,6 @@
+
 plot.barplot <- function (x, xname = NULL, fillname = NULL, prop = F){
-  require(ggplot2)
+  if(!("package:ggplot2" %in% search()) )require(ggplot2)
   if(!(is.null(xname) | is.null(fillname))){
     t <- table(x[[xname]], x[[fillname]])
     if(prop)   t <- prop.table(t)
