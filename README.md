@@ -5,6 +5,7 @@ This code plots a barplot in R. It loads ggplot2, and calculates the frequency o
 > install.packages("data.table")
 > require(data.table)
 
+> x  <- data.table(x)
 > x
 #      TechSupport SeniorCitizen
 # 1          No             0
@@ -17,6 +18,6 @@ This code plots a barplot in R. It loads ggplot2, and calculates the frequency o
 # 8          Yes            0
 # 9          No             1
 # 10         No             1
-> x  <- data.table(data = cars)
+
 > plot.barplot(x = x, xname = "TechSupport", fillname = "SeniorCitizen")
 ```
