@@ -21,3 +21,4 @@ This code plots a barplot in R. It loads ggplot2, and calculates the frequency o
 
 > plot.barplot(x = x, xname = "TechSupport", fillname = "SeniorCitizen")
 ```
+<img src='https://raw.githubusercontent.com/thom1178/Barplot-via-ggplot/master/Example_Plot.png' alt="Example_Plot.png">
