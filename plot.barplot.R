@@ -18,7 +18,7 @@ plot.barplot <- function (x, xname = NULL, fillname = NULL, prop = F){
     }
     
   }else{
-    return("Please use both a xname and fillname")
+    stop("Please use both a xname and fillname")
   }
 
 }
