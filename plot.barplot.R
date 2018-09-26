@@ -14,7 +14,7 @@ plot.barplot <- function (x, xname = NULL, fillname = NULL, prop = F){
         geom_bar(stat = "identity", position = "dodge") + ylab("Frequency") + 
         xlab(paste(xname) )+ guides(fill=guide_legend(title=paste(fillname)))
       print(g)
-      return(t)
+      #return(t)
     }
     
   }else{
